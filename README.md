@@ -1,0 +1,1 @@
+# ArquitecturaDe-Software_juegoDeTerror_SolidPatrones
