@@ -2,14 +2,14 @@
 
 
 Resumen de caso de uso y funcionalidades.
-El proyecto es un videojuego con una interfaz sencilla donde tenemos un Mapa , un JugadorPrincipal y un Enemigo , se gana si el jugador llega al final del mapa (que es un arreglo simple ) y tambien hay un menu con el significado de los simbolos del mapa y con las acciones que se puede realizar en el juego.
+    El proyecto es un videojuego con una interfaz sencilla donde tenemos un Mapa , un JugadorPrincipal y un Enemigo , se gana si el jugador llega al final del mapa (que es un arreglo simple ) y tambien hay un menu con el significado de los simbolos del mapa y con las acciones que se puede realizar en el juego.
 
 Tecnologías usadas.
-Lenguaje Java, visual estudio code
+    Lenguaje Java, visual estudio code
 
 Ejecucion 
-para lograr ejecutar el proyecto debe correr la clase "Juego.java" que esta ubicado en en la ruta VideoJuegoTerror/src/presentacion/Juego.java 
-una vez ejecutado siga el menu para poder jugar el juego.
+    para lograr ejecutar el proyecto debe correr la clase "Juego.java" que esta ubicado en en la ruta VideoJuegoTerror/src/presentacion/Juego.java 
+    una vez ejecutado siga el menu para poder jugar el juego.
 
 
 
@@ -27,12 +27,18 @@ Principios SOLID:
     D: Dependency Inversion Principle (DIP) – Las clases como Juego dependen de abstracciones como las interfaces JugadorDecorado y Observador en lugar de depender de implementaciones concretas. 
 
 Patrones de Diseño:
-Creational: Singleton (para la implementación de JugadorPrincipal y Guardar) solo debe haber una instancia del jugador principal.
-Estructural: decorator (para la implementación de RomperFoco ) al pulsar la opcion"armar" el jugador ya podra realizar la accion de mostrar su arma.
-Comportamiento: Observer(para la implementación de TransportadorEnemigo )cuando el jugador se arme el observador mueve al enemigo al lado del jugador .
+    Creational: Singleton (para la implementación de JugadorPrincipal y Guardar) solo debe haber una instancia del jugador principal.
+
+    Estructural: decorator (para la implementación de RomperFoco ) al pulsar la opcion"armar" el jugador ya podra realizar la accion de mostrar su arma.
+
+    Comportamiento: Observer(para la implementación de TransportadorEnemigo )cuando el jugador se arme el observador mueve al enemigo al lado del jugador .
+
 Arquitectura en 3 capas:
-Capa de acceso a datos: Datos
-Capa de negocio: Negocio
-Capa de presentación: Presentacion
+    Capa de acceso a datos: Datos
+
+    Capa de negocio: Negocio
+
+    Capa de presentación: Presentacion
+
 
 
